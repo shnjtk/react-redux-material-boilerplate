@@ -1,0 +1,15 @@
+# Test codes
+src/**/*.test.js
+src/**/*.spec.js
+
+# Bundle output directory
+dist/
+
+# Test coverage files
+coverage/
+
+# Webpack config
+webpack.config.js
+
+# PostCSS config
+postcss.config.js
