@@ -6,6 +6,10 @@
       }
     }],
     "stage-3",
-    "react"
+    "react",
+    "flow"
+  ],
+  "plugins": [
+    "transform-flow-strip-types"
   ]
 }

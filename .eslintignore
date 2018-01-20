@@ -13,3 +13,6 @@ webpack.config.js
 
 # PostCSS config
 postcss.config.js
+
+# flow-typed directory
+flow-typed/

@@ -1,18 +1,29 @@
 module.exports = {
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "env": {
-    "browser": true,
-    "es6": true
+  env: {
+    browser: true,
+    es6: true
   },
-  "plugins": [
-    "react"
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:flowtype/recommended'
   ],
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true,
-      "experimentalObjectRestSpread": true
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+      experimentalObjectRestSpread: true
+    }
+  },
+  plugins: [
+    'react',
+    'flowtype'
+  ],
+  settings: {
+    flowtype: {
+      onlyFilesWithFlowAnnotation: true
     }
   }
 };
