@@ -4,22 +4,22 @@ module.exports = {
     es6: true
   },
   extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:flowtype/recommended"
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:flowtype/recommended'
   ],
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
       experimentalObjectRestSpread: true
     }
   },
-  plugins: ["react", "flowtype", "prettier"],
+  plugins: ['react', 'flowtype', 'prettier'],
   rules: {
-    "prettier/prettier": ["error", { singleQuote: true }]
+    'prettier/prettier': ['error', { singleQuote: true }]
   },
   settings: {
     flowtype: {
