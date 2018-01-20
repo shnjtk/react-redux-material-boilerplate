@@ -1,1 +1,1 @@
-# react-redux-material-boilerplate
+# react-redux-material-sandbox
