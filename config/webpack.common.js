@@ -5,7 +5,7 @@ var htmlWebpackPlugin = require('html-webpack-plugin');
 var extractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry: [srcPath + '/index.jsx', srcPath + '/views/style.css'],
+  entry: [srcPath + '/index.js', srcPath + '/views/style.css'],
 
   output: {
     filename: 'app.[hash].bundle.js',
