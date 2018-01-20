@@ -1,6 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './views';
 
-const App = () => <div className="hello">Hello, React</div>;
-
-render(<App />, document.getElementById('app_root'));
+render(
+  <Router>
+    <App />
+  </Router>,
+  document.getElementById('app_root')
+);
